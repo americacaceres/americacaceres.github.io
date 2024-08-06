@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(28, 31, 71);
+    
+    
+    
+}
+#title {
+    color:rgb(172, 104, 168);
+    font-size: 60px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium';
+   
+}
+
+#encabezado { 
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    font-family: georgia;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+#encabezado li a {
+    color: white;
+}
+
+#contenido {
+padding: 60px 100px;
+background-color: rgb(38, 12, 65);
+border-radius: 5px;
+text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family:"Franklin Gothic Medium" ;
+    color: burlywood;
+}
+
+.content { 
+    color:rgb(212, 185, 228);
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: Tahoma;
+    color: rgb(225, 185, 252);
+    padding: 30px;
+    
+}
+
+
+
+
+.images {
+    width: 40%;
+}
+
+.logo {
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#Contacto div {
+    display: flex;
+    flex-direction: column;
+    padding:  10px 100px;
+}
+#Contacto {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}

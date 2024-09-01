@@ -4,49 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script
     <link rel="stylesheet" href="style.css" >
-
 
 </head>
 
-<header> 
-     <nav> 
-        <ul id="encabezado">
-            <li> <a href="#Info">Sobre mí</a>
-                 <a href="#Contacto">Contacto</a>
-
+<header>  
+    <nav class="navbar navbar-expand-sm bg-dark">
+   
+        <ul class="navbar-nav container justify-content-center" id="encabezado">
+            <li class="nav-item">
+                 <a class="nav-link " href="#Info">Sobre mí</a>
             </li>
-                
+            <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
         </ul>
-     </nav>
+        </nav>
 </header>
 <body>
     
-    <section id="contenido"> 
-        <h1 id="title">Hola! Mi nombre es América Cáceres
-        </h1>
-    
-         <h3>Bienvenidos a mi portafolio web</h3>
-         <div >
-            <img  class="images"  src="img/yo.jpg" >
-         </div>
-    <div>
+    <div class="container text-center" id="contenido"> 
+
+        <div>
+        <h1 class="h1 text-content-center" id="title">Hola! Mi nombre es América Cáceres</h1>
+        <h3 class="text-content-center h3">Bienvenidos a mi portafolio web</h3>
+            <img  class=" img-fluid images mx-auto w-50"  src="img/yo.jpg" >
+        </div>
+
+
+        <div>
         <h4 class="subtitle"  id="Info"> Sobre mí  </h4>
         <p class="content"> Mi nombre es América Cáceres, actualmente estoy cursando Jóvenes a Programar, programa en el cual estoy aprendiendo desarrollo web con 
             html, css y javascript. También estoy cursando la facultad de Ingeniería en Computación. Mi objetivo es poder superarme 
             en el ámbito de las IT para lograr un perfil profesional y competente. 
         </p>
-    </div>
-    </section>
-     <section id="Contacto">
-     <img class="images" src="img/fondo.jpg" >
-    <div>
-        <h4 class="subtitle"  > Contacto </h4>
-        <a href="https://www.instagram.com/amerixat/" target="_blank"> <img class="logo"  src="img/Instagram_logo_2016.svg.webp" ></a>
-         <img class="logo"  src="img/images.png" >
-         <p class="content">americacaceres10@gmail.com</p>
         </div>
-    </section>
+    </div>
+
+
+
+     <div class="container" id="Contacto">
+        <div class="row">
+        <div class="col">
+        <img class="img-fluid  float-start images" src="img/fondo.jpg" >
+        </div>
+        <div class="col">
+        <h4 class="subtitle"> Contacto </h4>
+        <a href="https://www.instagram.com/amerixat/" target="_blank"> 
+            <img class="logo img-fluid w-25 "  src="img/Instagram_logo_2016.svg.webp" ></a>
+         <img class="logo img-fluid w-25 "  src="img/images.png" >
+         <p class="content">americacaceres10@gmail.com</p>
+         </div>
+         </div>
+        
+    </div>
         
      
 

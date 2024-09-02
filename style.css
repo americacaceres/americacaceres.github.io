@@ -1,48 +1,36 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-  body {
-    background-color: rgb(28, 31, 71);
-    
-    
-    
+
+body {
+    background-color: rgb(28, 31, 71)!important;
+
 }
 #title {
     color:rgb(172, 104, 168);
-    font-size: 60px;
-    text-align:center;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium'  !important;
    
 }
 
 #contenido {
-padding: 60px 100px;
 background-color: rgb(38, 12, 65);
-border-radius: 5px;
-text-align: center;
 
 }
 
 h3 {
-    text-align: center;
-    font-size: 30px;
     font-family:"Franklin Gothic Medium" ;
-    color: burlywood;
+    color:rgb(212, 185, 228);
 }
 
 .content { 
     color:rgb(212, 185, 228);
-    font-family: Garamond;
-    font-size: 20px;
+    font-family: Garamond !important;
+    padding: 5%;
+    padding-top: 0%;
 }
 
 .subtitle {
-    text-align: center;
-    font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma !important;
     color: rgb(225, 185, 252);
-    padding: 30px;
+    padding: 1%;
+
     
 }
 
@@ -53,9 +41,9 @@ h3 {
 .logo {
     width: 50%;
     height: auto;
-    text-align: center;
-    padding: 10px;
 }
 
 
-
+.nav-link {
+    color: #fff3cd;
+}

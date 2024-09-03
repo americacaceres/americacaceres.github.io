@@ -1,86 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 body {
-    background-color: rgb(28, 31, 71);
-    
-    
-    
+    background-color: rgb(28, 31, 71)!important;
+
 }
 #title {
     color:rgb(172, 104, 168);
-    font-size: 60px;
-    text-align:center;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium'  !important;
    
 }
 
-#encabezado { 
-    text-align: center;
-    list-style: none;
-    padding: 20px;
-    font-family: georgia;
-    font-size: 20px;
-    font-weight: bold;
-    
-
-}
-#encabezado li a {
-    color: white;
-}
-
 #contenido {
-padding: 60px 100px;
 background-color: rgb(38, 12, 65);
-border-radius: 5px;
-text-align: center;
 
 }
 
 h3 {
-    text-align: center;
-    font-size: 30px;
     font-family:"Franklin Gothic Medium" ;
-    color: burlywood;
+    color:rgb(212, 185, 228);
 }
 
 .content { 
     color:rgb(212, 185, 228);
-    font-family: Garamond;
-    font-size: 20px;
+    font-family: Garamond !important;
+    padding: 5%;
+    padding-top: 0%;
 }
 
 .subtitle {
-    text-align: center;
-    font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma !important;
     color: rgb(225, 185, 252);
-    padding: 30px;
+    padding: 1%;
+
     
 }
 
+.col-12 {
+    max-width: 50%;
+    height: auto;
+    margin: 3%;
 
-
-
-.images {
-    width: 40%;
 }
 
+
+*/
 .logo {
-    width: 50px;
-    text-align: center;
-    padding: 10px;
+    width: 50%;
+    height: auto;
 }
 
 
-#Contacto div {
-    display: flex;
-    flex-direction: column;
-    padding:  10px 100px;
+.nav-link {
+    color: #fff3cd;
 }
-#Contacto {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
+
+.col-12 p {
+    color: rgb(212, 185, 228); ;
 }

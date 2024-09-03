@@ -34,7 +34,12 @@ h3 {
     
 }
 
+.col-12 {
+    max-width: 50%;
+    height: auto;
+    margin: 3%;
 
+}
 
 
 */
@@ -46,4 +51,8 @@ h3 {
 
 .nav-link {
     color: #fff3cd;
+}
+
+.col-12 p {
+    color: rgb(212, 185, 228); ;
 }
